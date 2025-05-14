@@ -1,0 +1,7 @@
+<quest>::=<hero> <action> <goal>
+<hero>::=<title> <class> | <name>
+<title>::=The | A
+<class>::=knight | mage | rogue | cleric
+<name>::=Elara | Torin | Livia | Gavyn
+<action>::=quests for | seeks | battles | discovers
+<goal>::=treasure | glory | a relic | wisdom
