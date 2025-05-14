@@ -17,6 +17,20 @@ public class GrammarMain {
         System.out.println();
 
         // open grammar file
+        // System.out.print("What is the name of the grammar file? ");
+        // Scanner console = new Scanner(System.in);
+        // String fileName = console.nextLine();
+        // ArrayList<String> lines = readLines(fileName);
+
+        // construct grammar solver and begin user input loop
+        //GrammarSolver solver = new GrammarSolver(lines);
+    }
+
+    public static void main1(String[] args) throws FileNotFoundException {
+        System.out.println("Welcome to the CS 142 random sentence generator!");
+        System.out.println();
+
+        // open grammar file
         System.out.print("What is the name of the grammar file? ");
         Scanner console = new Scanner(System.in);
         String fileName = console.nextLine();
