@@ -9,7 +9,7 @@ Grammar Solver is a Java program that generates random elements of a formal lang
 - **Random Generation**: Generates random phrases for any non-terminal symbol using a recursive algorithm, ensuring valid combinations of terminals.
 - **Symbol Management**: Provides methods to check if a symbol is a non-terminal and to retrieve all non-terminals in the grammar.
 - **User Interaction**: Integrates with a provided `GrammarMain.java` client to prompt users for symbols and the number of phrases to generate.
-- **Custom Grammar**: Includes a sample BNF grammar (`grammar.txt`) for testing, with support for user-defined grammars.
+- **Custom Grammar**: Includes some sample BNF grammar files for testing, with support for user-defined grammars.
 
 ## Usage
 1. **Prerequisites**: Ensure Java is installed and the support files (`GrammarMain.java`, `sentence.txt`, and other input files) are in the same directory as the project.
