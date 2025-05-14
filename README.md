@@ -12,7 +12,7 @@ Grammar Solver is a Java program that generates random elements of a formal lang
 - **Custom Grammar**: Includes some sample BNF grammar files for testing, with support for user-defined grammars.
 
 ## Usage
-1. **Prerequisites**: Ensure Java is installed and the support files (`GrammarMain.java`, `sentence.txt`, and other input files) are in the same directory as the project.
+1. **Prerequisites**: Ensure Java is installed and the support files (`GrammarMain.java`, `GrammarSolver.java`, and any input files) are in the same directory as the project.
 2. **Running the Program**:
    - Compile and run `GrammarMain.java`.
    - Enter the name of a BNF grammar file (e.g., `sentence.txt` or `grammar.txt`) when prompted.
@@ -26,8 +26,8 @@ Grammar Solver is a Java program that generates random elements of a formal lang
 ```
 Welcome to the CSE 143 random sentence generator!
 What is the name of the grammar file? sentence.txt
-Available symbols to generate are: [<adj>, <adjp>, <dp>, <iv>, <n>, <np>, <pn>, <s>, <tv>, <vp>]
-What do you want to generate (Enter to quit)? <np>
+Available symbols to generate are: [adj, adjp, dp, iv, n, np, pn, s, tv, vp]
+What do you want to generate (Enter to quit)? np
 How many do you want me to generate? 5
 a wonderful father
 the faulty man
@@ -38,9 +38,8 @@ Sally
 
 ## File Structure
 - `GrammarSolver.java`: Core class that parses the BNF grammar, stores rules in a Map, and generates random phrases recursively.
-- `grammar.txt`: A custom BNF grammar file with at least 5 non-terminals, provided for testing.
 - `GrammarMain.java`: Provided client program for file processing and user interaction.
-- `sentence.txt`: Sample BNF grammar file for testing.
+- `*.txt`: Sample BNF grammar file for testing.
 
 ## Example Grammar (`sentence.txt`)
 ```
